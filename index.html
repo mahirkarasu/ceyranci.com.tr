@@ -1,65 +1,239 @@
-<div class="regions-grid">
-          <a href="https://ceyranci.com.tr/bodrum-merkez/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Bodrum Merkez &amp; Konacık</h3>
-              <span class="eta-tag">Ort. 25 Dk</span>
-            </div>
-            <p>Çarşı, Kumbahçe, Cevat Şakir, Umurça, Konacık ve Bitez kavşağı çevresindeki konut, iş yeri ve marinaya yakın noktalara acil elektrik servisi →</p>
-          </a>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceyrancı | Bodrum 7/24 Acil Elektrikçi &amp; Teknik Arıza Servisi</title>
+  <meta name="description" content="Ceyrancı Bodrum Elektrik Servisi - Bodrum Merkez, Yalıkavak, Gündoğan, Türkbükü, Turgutreis, Bitez, Ortakent ve Gümüşlük genelinde 7/24 acil elektrik arıza servisi. Hemen Arayın: 0532 496 24 48">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ceyranci.com.tr/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b132b'/><text x='50' y='72' font-size='64' text-anchor='middle' fill='%23ffb703'>⚡</text></svg>">
 
-          <a href="https://ceyranci.com.tr/yalikavak/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Yalıkavak</h3>
-              <span class="eta-tag">Ort. 25 Dk</span>
-            </div>
-            <p>Yalıkavak Marina, Geriş, Tilkicik, Gökçebel ve Küdür bölgesindeki akıllı villalar, siteler ve ticari işletmeler için 7/24 teknik arıza çözümü →</p>
-          </a>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ceyrancı | Bodrum Yarımadası 7/24 Acil Elektrikçi">
+  <meta property="og:description" content="Bodrum Merkez, Yalıkavak, Gündoğan, Türkbükü, Turgutreis, Bitez, Ortakent ve Gümüşlük bölgelerine 7/24 mobil elektrik teknik servis.">
+  <meta property="og:url" content="https://ceyranci.com.tr/">
 
-          <a href="https://ceyranci.com.tr/gundogan/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Gündoğan &amp; Küçükbük</h3>
-              <span class="eta-tag">Ort. 25 Dk</span>
-            </div>
-            <p>Gündoğan Merkez, Küçükbük, Kızılburun ve Farilya koyundaki villa siteleri, hidrofor/havuz panoları ve yazlık konutlar için 7/24 acil elektrikçi →</p>
-          </a>
+  <!-- Schema.org (GBP riskini önlemek için telephone alanı bilinçli olarak hariç tutulmuştur) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "Ceyrancı Bodrum Elektrik Teknik Servis",
+    "url": "https://ceyranci.com.tr/",
+    "description": "Bodrum yarımadası genelinde 7/24 acil elektrik arıza tespiti, kaçak akım rölesi, sigorta panosu yenileme, villa ve tekne elektrik bakım hizmetleri.",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "$$",
+    "areaServed": [
+      { "@type": "City", "name": "Bodrum" },
+      { "@type": "Place", "name": "Yalıkavak" },
+      { "@type": "Place", "name": "Gündoğan" },
+      { "@type": "Place", "name": "Türkbükü" },
+      { "@type": "Place", "name": "Turgutreis" },
+      { "@type": "Place", "name": "Bitez" },
+      { "@type": "Place", "name": "Ortakent" },
+      { "@type": "Place", "name": "Gümüşlük" },
+      { "@type": "Place", "name": "Konacık" }
+    ]
+  }
+  </script>
 
-          <a href="https://ceyranci.com.tr/turkbuku/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Türkbükü &amp; Göltürkbükü</h3>
-              <span class="eta-tag">Ort. 30 Dk</span>
-            </div>
-            <p>Türkbükü, Göltürkbükü, Cennet Koyu ve Hebil bölgesindeki villalar, butik oteller ve sahil işletmeleri için 7/24 elektrik arıza ve bakım servisi →</p>
-          </a>
+  <style>
+    :root {
+      --bg-dark: #0b132b;
+      --bg-card: #1c2541;
+      --accent: #ffb703;
+      --accent-hover: #fb8500;
+      --whatsapp: #25d366;
+      --text-light: #f8fafc;
+      --text-muted: #cbd5e1;
+      --surface: #ffffff;
+      --text-dark: #0f172a;
+      --border: #e2e8f0;
+    }
 
-          <a href="https://ceyranci.com.tr/turgutreis/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Turgutreis</h3>
-              <span class="eta-tag">Ort. 25 Dk</span>
-            </div>
-            <p>Turgutreis Merkez, Bahçelievler, Akçaalan, Kadıkalesi ve Akyarlar hattında yazlık ve müstakil evlerin tüm elektrik tesisat ve pano onarımları →</p>
-          </a>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-          <a href="https://ceyranci.com.tr/bitez/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Bitez</h3>
-              <span class="eta-tag">Ort. 20 Dk</span>
-            </div>
-            <p>Bitez Yalı, Aktur, Köy içi ve sahil işletmelerinde nem kaynaklı kaçak akım sorunları, bahçe aydınlatma ve trifaze yük dengeleme →</p>
-          </a>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f1f5f9;
+      color: var(--text-dark);
+      line-height: 1.6;
+      padding-bottom: 72px;
+    }
 
-          <a href="https://ceyranci.com.tr/ortakent/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Ortakent &amp; Yahşi</h3>
-              <span class="eta-tag">Ort. 20 Dk</span>
-            </div>
-            <p>Ortakent Merkez, Yahşi sahil, Müskebi ve çevresindeki villa sitelerinde regülatör kurulumu, hidrofor/havuz panosu ve kısa devre tespiti →</p>
-          </a>
+    a {
+      text-decoration: none;
+    }
 
-          <a href="https://ceyranci.com.tr/gumusluk/" class="region-card" style="display:block;">
-            <div class="region-top">
-              <h3>Gümüşlük</h3>
-              <span class="eta-tag">Ort. 15 Dk</span>
-            </div>
-            <p>Gümüşlük Merkez, Karakaya, Koyunbaba ve Çukurbük mevkilerinde kesintisiz gece-gündüz acil elektrikçi, topraklama ve pano yenileme hizmeti →</p>
-          </a>
-        </div>
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-light);
+      letter-spacing: -0.5px;
+    }
+
+    .brand span.bolt {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      background: var(--accent);
+      color: var(--bg-dark);
+      border-radius: 8px;
+      font-size: 1.1rem;
+    }
+
+    .brand small {
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .header-cta {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: transform 0.15s ease, background-color 0.15s ease;
+      cursor: pointer;
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-call {
+      background-color: var(--accent);
+      color: var(--bg-dark);
+    }
+
+    .btn-call:hover {
+      background-color: var(--accent-hover);
+      color: #ffffff;
+    }
+
+    .btn-wa {
+      background-color: var(--whatsapp);
+      color: #062c15;
+    }
+
+    .btn-wa:hover {
+      filter: brightness(1.06);
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--bg-dark) 0%, #162447 100%);
+      color: var(--text-light);
+      padding: 64px 0 72px;
+    }
+
+    .badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 183, 3, 0.14);
+      border: 1px solid rgba(255, 183, 3, 0.4);
+      color: var(--accent);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      background-color: #22c55e;
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4.5vw, 3.1rem);
+      line-height: 1.15;
+      font-weight: 800;
+      margin-bottom: 18px;
+      max-width: 780px;
+    }
+
+    .hero h1 span {
+      color: var(--accent);
+    }
+
+    .hero p {
+      font-size: 1.12rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin-bottom: 30px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    .hero-actions .btn {
+      padding: 15px 26px;
+      font-size: 1.05rem;
+    }
+
+    .trust-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      padding-top: 26px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .trust-item {
+      background: rgba(255, 255, 255, 0.05);
